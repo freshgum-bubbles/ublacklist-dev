@@ -28,8 +28,12 @@
 # An up-to-date version of this file can be found at:
 # <https://github.com/freshgum-bubbles/ublacklist-lists/blob/main/rules.txt>
 #
-# Please remember to periodically update your filter lists, as uBlacklist 
-# currently lacks an automated, uBO-esque way of doing this.
+# P.S. Instead of manually updating this ruleset, you would be much better
+# served by uBlacklist's new filter list functionality.  To access it:
+#  1. Open your uBlacklist settings menu
+#  2. Scroll down to the "Subscription" section
+#  3. Click "Add a subscription" and enter the URL of this file (see above).
+# This will ensure you get the most up-to-date list.
 
 #### Development
 #### ===========
