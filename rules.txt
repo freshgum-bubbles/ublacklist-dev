@@ -1,0 +1,67 @@
+# freshgum's blocklist
+# ====================
+#
+# This is a collection of websites to block via the uBlacklist extension.
+# The extension removes filtered websites from search engine results pages (SERPs for short.)
+# Various lists exist for the extension, of which this is one.
+#
+# I have published this in the hopes that you, or someone else, finds it useful.
+# It is a culmination of many hours of internet usage, wherein I have periodically
+# found an undesirable website, and have chosen to add it to this list.
+#
+# As always, please exercise caution when adding filter lists to your extensions.
+# I have no way of proving I added these websites without any form of bias,
+# financial or otherwise -- my word is the best I can offer.
+#
+# However, in the hopes of making sense of some of these blocks years later,
+# I have attached semi-detailed reasoning to each filtered website.
+#
+# Any usage of filter lists runs the risk of hiding information you may want to 
+# access, and should this list become out-of-date, you may find that the domains 
+# below may now host content which positively contributes to the internet, 
+# as opposed to detracting from it.
+#
+# With the above out of the way, please note that this content is licensed
+# under The Unlicense; this license may be found in the LICENSE file below:
+# <https://github.com/freshgum-bubbles/ublacklist-lists/blob/main/LICENSE>
+# 
+# An up-to-date version of this file can be found at:
+# <https://github.com/freshgum-bubbles/ublacklist-lists/blob/main/rules.txt>
+#
+# Please remember to periodically update your filter lists, as uBlacklist 
+# currently lacks an automated, uBO-esque way of doing this.
+
+#### Development
+#### ===========
+#### A set of rules pertaining to developer-oriented sites can be found below.
+#### This list tends to filter SEO farms, useless clone websites and more.
+*://www.geeksforgeeks.org/* # Developer-focused SEO spam farm
+*://www.tutorialspoint.com/* # Developer-focused SEO spam farm
+*://devdoc.net/* # Mozilla Developer Network (MDN) mirror
+*://docs.w3cub.com/* # DevDocs clone
+*://n.fastcloud.me/* # GitHub clone
+*://gitee.com/mirrors/* # Mirrors of projects on GitHub, GitLab, BitBucket(?) etc.
+####
+
+#### Personal Ruleset
+#### ================
+*://vaping101.co.uk/* # Potential scam website; substantial amount of bad ratings. SEO farm.
+*://www.flawlessvapeshop.co.uk/* # price scalpers
+*://userbenchmark.org/* # Very well-known to be editorially biased against AMD, and generally recommended against.  Also verging on SEO farm territory.
+####
+
+#### Blogspam
+#### ========
+*://matrixcoffee.gitlab.io/* # SEO Spam
+*://www.healthline.com/* # Very heavy use of popups, inaccurate information
+*://improvesongwriting.com/* # Generic blogspam, heavy use of popups
+####
+
+#### SEO Farms; Unwanted Content
+#### ===========================
+*://www.mycarcheck.com/* # Unskippable sign up prompt for paid subscription *after* entering details.
+*://themefoxx.com/* # Paid [stolen?] wallpaper pack sign-up bait
+*://balenaetcher.org/* # badware (fake SEO farm site)
+*://balenaetcher.net/* # badware (fake SEO farm site)
+*://www.justanswer.com/* # paid general support site (SEO farm), fairly useless instructions from "professionals"
+####
