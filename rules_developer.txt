@@ -1,8 +1,0 @@
-# This is a uBlacklist filter list.
-# Each website is manually added; when a website is added, the reasoning for 
-# doing so is provided as an inline comment directly next to the respective site.
-
-*://www.geeksforgeeks.org/* # Developer-focused SEO spam farm
-*://www.tutorialspoint.com/* # Developer-focused SEO spam farm
-*://devdoc.net/* # Mozilla Developer Network (MDN) mirror
-*://docs.w3cub.com/* # DevDocs clone
